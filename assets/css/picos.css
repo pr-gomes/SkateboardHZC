@@ -1,0 +1,100 @@
+.card__mapa {
+    border-radius: 20px;
+}
+
+@media screen and (min-width: 1440px) {
+    .card__mapa {
+        width: 100%;
+        border-radius: 20px;
+        grid-area: card__mapa;
+        
+        
+    }
+
+    .principal {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-areas: 
+            "titulo-pagina titulo-pagina titulo-pagina titulo-pagina"
+            "card__mapa card__mapa card__mapa card__mapa"
+        ;
+        column-gap: 35px;
+        padding: 16px 60px;
+        grid-column: span 1;
+    
+    }
+
+    .card__descricoes {
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+        padding: 2em 1em;
+        
+    
+    }
+    
+    .card__imagem--picos {
+        width: 100%;
+        border-radius: 16px 16px 0px 0px;
+        height: 150px;
+        background-color: var(--cor--cinza);
+    }
+
+    .card {
+        border-radius: 0px 0px 20px 20px;
+        background-color: var(--cor--cinza);
+
+    }
+
+    .card__botao__picos:hover {
+        background-image: linear-gradient(to right, #FFFFFF, #C0C0C0);
+        color: #0480DC;
+        transition: 0.7s ease-in;
+    }
+}
+
+.card__imagem {
+    width: 100%;
+
+}
+
+.card__imagem--picos {
+    width: 100%;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.card__descricoes {
+    display: flex;
+    flex-direction: column;
+    
+    background-color: var(--cor--cinza);
+    padding: 2em 1em;
+    border-radius: 0px 0px 16px 16px;
+
+}
+
+.lista__card__picos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px
+}
+
+.descricao__botao__picos {
+    width: 70%;
+}
+
+.card__botao__picos::before {
+    content: "\e909";
+}
+
+.card__botao__picos {
+    background-color: var(--azul);
+    font-family: var(--fonte--principal);
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: var(--branco);
+    padding: 0.5em;
+    border-radius: 10px;
+    cursor: pointer;
+}

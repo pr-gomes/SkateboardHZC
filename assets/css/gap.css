@@ -1,0 +1,59 @@
+.card__imagem--gap {
+    width: 105%;
+}
+
+.container__icone__profile {
+    width: 7%;
+}
+
+.lista__card__profile {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 1.5em 0;
+}
+
+.container__texto__gap {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-right: 1em;
+    line-height: 2;
+}
+
+.mapa__gap__itau {
+    border-radius: 20px;
+}
+
+.container__texto__mapa {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 2;
+    margin-top: 1em;
+}
+.container__gap__mapa {
+    margin: 1em;
+}
+.imagem__skatista__gap {
+    width: 100%;
+    margin-top: 2em;
+}
+
+.container__gap {
+    margin: 0 1em;
+}
+
+.lista__card__visualizacao::before {
+    content: "\e90f";
+}
+
+@media screen and (min-width: 1440px) {
+    .principal {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+    }    
+
+    .container__gap {
+        grid-column: span 3;
+    }
+ 
+}
