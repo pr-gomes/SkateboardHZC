@@ -7,13 +7,14 @@ Toda a estilização que será usada no projeto dentro do figma.
 
 Projeto foi idealizado para auxiliar os amantes de Skateboard, objetivo deste projeto é fornecer aos usuários uma maneira fácil de encontrar as melhores localidades para prática do esporte Skateboard . A página é construída com o uso do layout de grid em CSS, o que permite uma organização flexível e adaptável do conteúdo em diferentes dispositivos e tamanhos de tela. Além disso, a integração da API de mapas permite que os usuários visualizem com facilidade os melhores gaps para se divertir e práticar seu esporte . 
 
-# Tecnologias
-
-HTML
-CSS (com o uso do layout de grid)
-JavaScript
-Google Maps 
-
+# Tecnologias Usadas
+  <div display: inline-block>
+     <img align="center"  height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+     <img align="center"  height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+     <img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+  </div>
+  
 # Autor 
 
-https://www.linkedin.com/in/paulo-rj/
+Paulo Ricardo : https://www.linkedin.com/in/paulo-rj/
+
