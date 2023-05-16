@@ -1,7 +1,7 @@
 # Projeto base Figma 
 
 Toda a estilização que será usada no projeto dentro do figma.
-
+<img width="50%" align="right" src="https://cdn.discordapp.com/attachments/838601680404086806/1108092446723813396/HZC___Home_-_Google_Chrome_2023-05-16_15-01-43.gif"/>
 [Link do projeto no figma](https://www.figma.com/file/ibWktwVpnog76rMYOdVhks/Dispondo-elementos-com-flexbox-e-grid?node-id=54%3A2358)
 
 
